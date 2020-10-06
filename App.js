@@ -30,7 +30,7 @@
  * must there be a specific requirement on what's exported from here though
  */
 
-module.exports = require("./target/scala-2.13/lsjs-fastopt.js").app;
+module.exports = require("./target/scala-2.13/dexpo-fastopt.js").app;
 
 // export default function App() {
 //   return (

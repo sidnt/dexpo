@@ -1,7 +1,7 @@
 lazy val root = (project in file("."))
   .enablePlugins(ScalaJSPlugin)
   .settings(
-    name := "lsjs",
+    name := "dexpo",
     scalaVersion := "2.13.3",
     version := "0.0.0",
     libraryDependencies ++= Seq(
